@@ -783,7 +783,6 @@ public:
 			clean_stack();
 			return{ begin,true };
 		}
-		clean_stack();
 		return{ lexResult.first,false };
 	}
 
