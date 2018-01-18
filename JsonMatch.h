@@ -42,7 +42,7 @@ public:
 		VALUE,
 		END
 	};
-
+#ifdef DEBUG_JSON_PARSER
 	void prettyPrintSymbol(json_symbols j)
 	{
 		switch (j)
